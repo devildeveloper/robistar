@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Movistar | Admin</title>
+    <link rel="stylesheet" href="semantic-ui/semantic.min.css">
+    <link rel="stylesheet" href="semantic-ui/components/icon.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/main.min.css">
+</head>
+<body>
+    <main>
+        <header>
+            <div class="ui menu">
+                <div class="header item">
+                    Welcome USER
+                </div>
+                <a class="item">
+                    Pendientes
+                </a>
+                <div class="right menu">
+                    <a class="item">
+                        Salir
+                    </a>
+                </div>
+            </div>              
+        </header>
+        <div class="ui grid">
+            <div class="four wide column">
+                <div class="ui comments">
+                    <request></request>
+                </div>
+            </div>
+            <div class="twelve wide column"></div>    
+        </div>         
+    </main>
+    <!-- semantic --> 
+    <script src="js/jquery.min.js"></script>
+    <script src="semantic-ui/semantic.min.js"></script>
+    <!-- socketio -->
+    <script src="js/socket.io.min.js"></script>
+    <!-- Riot + compiler -->
+    <script src="js/riot.min.js"></script>
+    <script src="components/request.tag" type="riot/tag"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
